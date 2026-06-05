@@ -19,10 +19,11 @@ Because relying only on AI behavior can introduce risks. I built a custom contro
     
     ![Pre-Hooks Demo](assets/agent_test_demo2.gif)
   * **Post-Hooks:** When the database returns raw MySQL types (like messy timestamps, decimal objects, or null values), the code intercepts them and normalizes them into clean, predictable text strings before they ever reach the AI. This keeps the LLM from getting confused by raw code formats (preventing hallucinations) and strips out useless data formatting (saving on token costs).
+
+    ![Happy Path Test](assets/test_happy_path.png)
 * **Stateful Session Management:** User sessions are saved as JSON files, capturing conversation history. Sessions can be resumed at any point without reconfiguring the system. 
 
 ![Session Management](assets/sessions.png)
-![Happy Path Test](assets/test_happy_path.png)
 
 ---
 
