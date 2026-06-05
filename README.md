@@ -46,6 +46,8 @@ customer_support_agent/
 ├── sessions/                 # Document store for conversation states (JSON)
 └── tests/                    # Behavior-Driven Development (BDD) integration tests
 
+---
+
 ### Setup & Installation
 
 #### 1. Clone the Repository and Environment
@@ -60,6 +62,8 @@ pip install -r requirements.txt
 # Run the agent
 python main.py
 ```
+
+---
 
 ### Automated Testing (BDD)
 
