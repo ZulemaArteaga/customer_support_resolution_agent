@@ -59,6 +59,7 @@ pip install -r requirements.txt
 
 # Run the agent
 python main.py
+```
 
 ### Automated Testing (BDD)
 
