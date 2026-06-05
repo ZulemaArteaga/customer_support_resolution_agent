@@ -45,12 +45,13 @@ customer_support_agent/
 │   └── subagents/            # Context-isolated specialist agents
 ├── sessions/                 # Document store for conversation states (JSON)
 └── tests/                    # Behavior-Driven Development (BDD) integration tests
+```
 
 ---
 
 ### Setup & Installation
 
-#### 1. Clone the Repository and Environment
+#### Clone the Repository and Environment
 
 ```bash
 git clone https://github.com/ZulemaArteaga/customer_support_resolution_agent.git
